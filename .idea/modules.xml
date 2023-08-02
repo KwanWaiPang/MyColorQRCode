@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/opencv/WeChatQRCode.opencv.main.iml" filepath="$PROJECT_DIR$/.idea/modules/opencv/WeChatQRCode.opencv.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/opencv/ColorQRCode.opencv.main.iml" filepath="$PROJECT_DIR$/.idea/modules/opencv/ColorQRCode.opencv.main.iml" />
     </modules>
   </component>
 </project>

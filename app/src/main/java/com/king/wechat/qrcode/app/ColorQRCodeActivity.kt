@@ -18,7 +18,7 @@ import com.king.opencv.qrcode.scanning.analyze.OpenCVScanningAnalyzer
  *
  * @author <a href="mailto:jenly1314@gmail.com">Jenly</a>
  */
-class ColorQRCodeActivity : OpenCVCameraScanActivity() {
+class ColorQRCodeActivity : OpenCVCameraScanActivity() {//继承opencv中camera扫描的activity
     override fun onScanResultCallback(result: AnalyzeResult<MutableList<String>>) {
         // 停止分析
         cameraScan.setAnalyzeImage(false)

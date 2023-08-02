@@ -13,7 +13,8 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "WeChatQRCode"
+//rootProject.name = "WeChatQRCode"
+rootProject.name = "ColorQRCode"
 include ':app'
 include ':opencv'
 include ':opencv-armv7a'

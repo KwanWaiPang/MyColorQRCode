@@ -167,7 +167,7 @@ class MainActivity : AppCompatActivity() {
             R.id.btnOpenCVQRCodeScan -> startActivityForResult(OpenCVQRCodeActivity::class.java)
             R.id.btnOpenCVQRCodeDecode -> pickPhotoClicked(false)
 
-            //新定义设计的彩色二维码(通过opencv实现彩色二维码666)
+            //新定义设计的彩色二维码(通过opencv实现彩色二维码)
             R.id.ColorOpencvQRCodeScan -> startActivityForResult(ColorQRCodeActivity::class.java)
         }
     }
