@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bf2a5c44-16f2-4219-88dc-229eb66f2a49" name="Changes" comment="123456">
+      <change afterPath="$PROJECT_DIR$/.gradle/7.5/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.5/checksums/md5-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.5/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/opencv/WeChatQRCode.opencv.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/release/output-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/king/wechat/qrcode/app/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/king/wechat/qrcode/app/Function.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/king/wechat/qrcode/app/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/king/wechat/qrcode/app/OpenCVQRCodeActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/king/wechat/qrcode/app/WeChatQRCodeActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/alpha_in.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/alpha_out.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_opencv_qrcode.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_wechat_qrcode.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/king/wechat/qrcode/app/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv-armv64/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv-armv64/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv-armv64/src/main/jniLibs/arm64-v8a/libopencv_java4.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv-armv7a/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv-qrcode-scanning/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv-qrcode-scanning/consumer-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv-qrcode-scanning/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv-qrcode-scanning/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv-qrcode-scanning/src/main/java/com/king/opencv/qrcode/scanning/analyze/OpenCVScanningAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv-qrcode/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv-qrcode/consumer-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv-qrcode/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv-qrcode/src/androidTest/java/com/king/opencv/qrcode/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv-qrcode/src/test/java/com/king/opencv/qrcode/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv-x86/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv-x86/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv-x86/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv-x86/src/main/jniLibs/x86/libopencv_java4.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv-x86_64/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv-x86_64/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv-x86_64/src/main/jniLibs/x86_64/libopencv_java4.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/arm64-v8a/.cmake/api/v1/query/client-agp/cache-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/arm64-v8a/.cmake/api/v1/query/client-agp/cmakeFiles-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/arm64-v8a/.cmake/api/v1/query/client-agp/codemodel-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/arm64-v8a/.cmake/api/v1/reply/cmakeFiles-v1-525719aff5c202511f6f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/arm64-v8a/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/arm64-v8a/.cmake/api/v1/reply/index-2023-08-02T07-14-46-0918.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/arm64-v8a/.cmake/api/v1/reply/target-opencv_jni_shared-Debug-9ab95c6d264f1d3d58d5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/arm64-v8a/.ninja_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/arm64-v8a/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/arm64-v8a/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/arm64-v8a/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/arm64-v8a/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/arm64-v8a/CMakeFiles/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/arm64-v8a/android_gradle_build_mini.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/arm64-v8a/build_file_index.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/arm64-v8a/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/arm64-v8a/compile_commands.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/arm64-v8a/compile_commands.json.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/armeabi-v7a/.cmake/api/v1/query/client-agp/cache-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/armeabi-v7a/.cmake/api/v1/query/client-agp/cmakeFiles-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/armeabi-v7a/.cmake/api/v1/reply/codemodel-v2-27866c2c8159af9d4305.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/armeabi-v7a/.cmake/api/v1/reply/index-2023-08-02T07-17-31-0110.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/armeabi-v7a/.cmake/api/v1/reply/target-opencv_jni_shared-Debug-dc17423b396eaed671cf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/armeabi-v7a/.ninja_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/armeabi-v7a/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/armeabi-v7a/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/armeabi-v7a/android_gradle_build.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/armeabi-v7a/build_file_index.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/armeabi-v7a/compile_commands.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/armeabi-v7a/libopencv_jni_shared.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/armeabi-v7a/prefab_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/armeabi-v7a/symbol_folder_index.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/hash_key.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/x86/.cmake/api/v1/query/client-agp/codemodel-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/x86/.cmake/api/v1/reply/cache-v2-b29f6b4403a83b960d96.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/x86/.cmake/api/v1/reply/cmakeFiles-v1-e901c608a94b344de0da.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/x86/.ninja_deps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/x86/.ninja_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/x86/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/x86/CMakeFiles/3.22.1-g37088a8-dirty/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/x86/CMakeFiles/3.22.1-g37088a8-dirty/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/x86/CMakeFiles/3.22.1-g37088a8-dirty/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/x86/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/x86/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdCXX/CMakeCXXCompilerId.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/x86/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/x86/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/x86/android_gradle_build_mini.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/x86/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/x86/build_file_index.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/x86/compile_commands.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/x86/metadata_generation_command.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/x86/symbol_folder_index.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/x86_64/.cmake/api/v1/query/client-agp/cmakeFiles-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/x86_64/.cmake/api/v1/query/client-agp/codemodel-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/x86_64/.cmake/api/v1/reply/cache-v2-35010188f30c7f8e6f78.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/x86_64/.cmake/api/v1/reply/codemodel-v2-8323dabe97a36df576a0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/x86_64/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/x86_64/.cmake/api/v1/reply/index-2023-08-02T07-17-38-0456.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/x86_64/.ninja_deps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/x86_64/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/x86_64/CMakeFiles/3.22.1-g37088a8-dirty/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/x86_64/CMakeFiles/3.22.1-g37088a8-dirty/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/x86_64/CMakeFiles/3.22.1-g37088a8-dirty/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/x86_64/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/x86_64/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdCXX/CMakeCXXCompilerId.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/x86_64/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/x86_64/CMakeFiles/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/x86_64/additional_project_files.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/x86_64/android_gradle_build.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/x86_64/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/x86_64/build_file_index.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/x86_64/configure_fingerprint.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/x86_64/libopencv_jni_shared.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/x86_64/metadata_generation_command.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/Debug/634m1o34/x86_64/symbol_folder_index.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/.cxx/tools/debug/arm64-v8a/compile_commands.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/etc/haarcascades/haarcascade_eye.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/etc/haarcascades/haarcascade_eye_tree_eyeglasses.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/etc/haarcascades/haarcascade_frontalcatface_extended.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/etc/haarcascades/haarcascade_frontalface_alt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/etc/haarcascades/haarcascade_fullbody.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/etc/haarcascades/haarcascade_lefteye_2splits.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/etc/haarcascades/haarcascade_profileface.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/etc/haarcascades/haarcascade_righteye_2splits.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/etc/lbpcascades/lbpcascade_frontalface.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/etc/lbpcascades/lbpcascade_frontalface_improved.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/etc/lbpcascades/lbpcascade_profileface.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/etc/lbpcascades/lbpcascade_silverware.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/etc/licenses/ade-LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/etc/licenses/cpufeatures-LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/etc/licenses/cpufeatures-README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/etc/licenses/ittnotify-LICENSE.BSD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/etc/licenses/ittnotify-LICENSE.GPL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/etc/licenses/libjpeg-turbo-LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/etc/licenses/libjpeg-turbo-README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/etc/licenses/libopenjp2-LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/etc/licenses/libopenjp2-README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/etc/licenses/openexr-AUTHORS.ilmbase" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/etc/licenses/openexr-LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/etc/licenses/protobuf-README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/etc/licenses/quirc-LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/etc/licenses/tbb-LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/etc/licenses/tbb-README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/OpenCV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/android/AsyncServiceHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/android/BaseLoaderCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/android/Camera2Renderer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/android/CameraBridgeViewBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/android/CameraGLRendererBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/android/CameraGLSurfaceView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/android/LoaderCallbackInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/android/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/calib3d/Calib3d.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/calib3d/StereoBM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/calib3d/StereoMatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/calib3d/UsacParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/core/Algorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/core/CvType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/core/DMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/core/Mat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/core/MatAt.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/core/MatOfDMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/core/MatOfDouble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/core/MatOfFloat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/core/MatOfFloat4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/core/MatOfFloat6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/core/MatOfInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/core/MatOfInt4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/core/MatOfKeyPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/core/MatOfPoint3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/core/MatOfPoint3f.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/core/MatOfRect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/core/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/core/Range.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/core/Rect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/core/Scalar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/core/TermCriteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/core/TickMeter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/dnn/KeypointsModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/dnn/Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/dnn/TextDetectionModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/features2d/AgastFeatureDetector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/features2d/BFMatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/features2d/BRISK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/features2d/FastFeatureDetector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/features2d/ORB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/features2d/SimpleBlobDetector_Params.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/imgproc/CLAHE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/imgproc/GeneralizedHough.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/imgproc/GeneralizedHoughBallard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/imgproc/Imgproc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/imgproc/Moments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/imgproc/Subdiv2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/ml/ANN_MLP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/ml/Boost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/ml/DTrees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/ml/EM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/ml/KNearest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/ml/Ml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/ml/NormalBayesClassifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/ml/ParamGrid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/ml/RTrees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/ml/SVM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/ml/SVMSGD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/ml/StatModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/objdetect/BaseCascadeClassifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/objdetect/CascadeClassifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/objdetect/FaceRecognizerSF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/objdetect/QRCodeDetector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/objdetect/QRCodeEncoder_Params.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/osgi/OpenCVNativeLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/photo/CalibrateCRF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/photo/CalibrateDebevec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/photo/CalibrateRobertson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/photo/MergeExposures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/photo/Photo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/photo/Tonemap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/photo/TonemapDrago.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/photo/TonemapMantiuk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/photo/TonemapReinhard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/utils/Converters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/video/BackgroundSubtractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/video/BackgroundSubtractorKNN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/video/BackgroundSubtractorMOG2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/video/DISOpticalFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/video/KalmanFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/video/SparseOpticalFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/video/Tracker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/video/TrackerDaSiamRPN_Params.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/video/TrackerMIL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/video/TrackerMIL_Params.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/video/VariationalRefinement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/video/Video.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/videoio/VideoCapture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/videoio/VideoWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/java/src/org/opencv/wechat_qrcode/WeChatQRCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/3rdparty/libs/arm64-v8a/libIlmImf.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/3rdparty/libs/arm64-v8a/libade.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/3rdparty/libs/arm64-v8a/libcpufeatures.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/3rdparty/libs/arm64-v8a/liblibjpeg-turbo.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/3rdparty/libs/arm64-v8a/liblibpng.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/3rdparty/libs/arm64-v8a/liblibprotobuf.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/3rdparty/libs/arm64-v8a/liblibwebp.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/3rdparty/libs/arm64-v8a/libtegra_hal.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/3rdparty/libs/armeabi-v7a/libIlmImf.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/3rdparty/libs/armeabi-v7a/libade.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/3rdparty/libs/armeabi-v7a/libittnotify.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/3rdparty/libs/armeabi-v7a/liblibjpeg-turbo.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/3rdparty/libs/armeabi-v7a/liblibopenjp2.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/3rdparty/libs/armeabi-v7a/liblibpng.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/3rdparty/libs/armeabi-v7a/liblibtiff.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/3rdparty/libs/armeabi-v7a/libquirc.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/3rdparty/libs/armeabi-v7a/libtbb.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/3rdparty/libs/x86/libade.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/3rdparty/libs/x86/liblibpng.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/3rdparty/libs/x86/liblibtiff.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/3rdparty/libs/x86/libquirc.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/3rdparty/libs/x86/libtbb.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/3rdparty/libs/x86_64/libIlmImf.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/3rdparty/libs/x86_64/libade.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/3rdparty/libs/x86_64/liblibjpeg-turbo.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/3rdparty/libs/x86_64/liblibpng.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/3rdparty/libs/x86_64/liblibtiff.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/3rdparty/libs/x86_64/libquirc.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/3rdparty/libs/x86_64/libtbb.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/OpenCV-arm64-v8a.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/OpenCV-armeabi-v7a.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/OpenCVConfig-version.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/OpenCVConfig.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/abi-arm64-v8a/OpenCVConfig-version.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/abi-arm64-v8a/OpenCVModules-release.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/abi-arm64-v8a/OpenCVModules.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/abi-armeabi-v7a/OpenCVConfig.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/abi-armeabi-v7a/OpenCVModules-release.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/abi-armeabi-v7a/OpenCVModules.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/abi-x86/OpenCVConfig-version.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/abi-x86/OpenCVConfig.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/abi-x86/OpenCVModules-release.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/abi-x86/OpenCVModules.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/abi-x86_64/OpenCVModules.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/calib3d.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/calib3d/calib3d.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/calib3d/calib3d_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/affine.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/async.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/bindings_utils.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/core.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/cuda.inl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/cuda/block.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/cuda/border_interpolate.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/cuda/common.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/cuda/detail/color_detail.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/cuda/detail/reduce.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/cuda/detail/reduce_key_val.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/cuda/detail/transform_detail.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/cuda/detail/type_traits_detail.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/cuda/detail/vec_distance_detail.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/cuda/limits.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/cuda/reduce.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/cuda/saturate_cast.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/cuda/scan.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/cuda/simd_functions.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/cuda/type_traits.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/cuda/vec_traits.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/cuda/warp_reduce.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/cuda/warp_shuffle.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/cuda_types.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/cv_cpu_dispatch.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/cvstd.inl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/cvstd_wrapper.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/detail/async_promise.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/directx.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/dualquaternion.inl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/eigen.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/fast_math.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/hal/hal.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/hal/intrin_avx.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/hal/intrin_avx512.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/hal/intrin_cpp.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/hal/intrin_msa.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/hal/intrin_rvv.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/hal/intrin_rvv071.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/hal/intrin_sse.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/hal/intrin_sse_em.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/hal/intrin_vsx.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/hal/simd_utils.impl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/mat.inl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/neon_utils.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/ocl_genbase.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/opencl/ocl_defs.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/opencl/opencl_info.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/opencl/runtime/autogenerated/opencl_gl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/opencl/runtime/opencl_clblas.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/opencl/runtime/opencl_core.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/opencl/runtime/opencl_core_wrappers.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/opencl/runtime/opencl_gl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/opencl/runtime/opencl_svm_definitions.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/opengl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/optim.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/parallel/backend/parallel_for.openmp.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/parallel/backend/parallel_for.tbb.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/parallel/parallel_backend.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/persistence.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/quaternion.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/quaternion.inl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/types_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/utility.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/utils/instrumentation.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/utils/logger.defines.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/utils/logger.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/utils/tls.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/va_intel.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/version.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/core/vsx_utils.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/cvconfig.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/dnn.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/dnn/all_layers.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/dnn/utils/inference_engine.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/features2d/hal/interface.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/flann.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/flann/allocator.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/flann/autotuned_index.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/flann/composite_index.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/flann/config.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/flann/defines.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/flann/dist.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/flann/dummy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/flann/dynamic_bitset.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/flann/flann.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/flann/general.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/flann/heap.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/flann/hierarchical_clustering_index.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/flann/index_testing.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/flann/kdtree_index.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/flann/kdtree_single_index.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/flann/linear_index.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/flann/lsh_table.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/flann/matrix.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/flann/nn_index.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/flann/random.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/flann/simplex_downhill.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/core.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/cpu/gcpukernel.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/cpu/stereo.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/fluid/gfluidbuffer.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/fluid/imgproc.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/garray.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/gasync_context.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/gcall.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/gcompoundkernel.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/gcomputation.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/gcomputation_async.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/gframe.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/gkernel.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/gmetaarg.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/gproto.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/gpu/core.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/gpu/ggpukernel.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/gpu/imgproc.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/gscalar.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/gtransform.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/gtype_traits.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/gtyped.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/imgproc.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/infer/ie.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/infer/onnx.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/infer/parsers.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/ocl/core.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/ocl/imgproc.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/opencv_includes.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/operators.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/own/convert.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/own/exports.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/own/mat.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/own/saturate.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/own/scalar.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/plaidml/core.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/plaidml/gplaidmlkernel.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/render.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/render/render_types.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/rmat.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/s11n.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/s11n/base.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/streaming/cap.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/streaming/desync.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/streaming/format.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/streaming/gstreamer/gstreamerpipeline.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/streaming/gstreamer/gstreamersource.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/streaming/meta.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/streaming/onevpl/device_selector_interface.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/streaming/onevpl/source.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/util/compiler_hints.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/util/copy_through_move.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/util/type_traits.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/util/util.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/util/variant.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/gapi/video.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/highgui.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/highgui/highgui.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/imgcodecs.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/imgcodecs/imgcodecs_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/imgcodecs/ios.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/imgcodecs/macosx.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/imgproc/bindings.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/imgproc/hal/hal.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/imgproc/imgproc.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/imgproc/imgproc_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/imgproc/types_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/ml/ml.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/ml/ml.inl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/objdetect.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/objdetect/detection_based_tracker.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/objdetect/objdetect.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/opencv.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/photo.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/photo/cuda.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/stitching.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/stitching/detail/autocalib.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/stitching/detail/exposure_compensate.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/stitching/detail/matchers.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/stitching/detail/motion_estimators.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/stitching/detail/util.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/stitching/detail/util_inl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/stitching/detail/warpers.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/stitching/warpers.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/video.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/video/detail/tracking.detail.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/video/tracking.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/video/video.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/videoio.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/videoio/cap_ios.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/videoio/registry.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/jni/include/opencv2/videoio/videoio.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/libs/arm64-v8a/libopencv_java4.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/libs/x86/libopencv_java4.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/libs/x86_64/libopencv_java4.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/staticlibs/arm64-v8a/libopencv_calib3d.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/staticlibs/arm64-v8a/libopencv_core.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/staticlibs/arm64-v8a/libopencv_gapi.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/staticlibs/arm64-v8a/libopencv_imgcodecs.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/staticlibs/arm64-v8a/libopencv_imgproc.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/staticlibs/arm64-v8a/libopencv_objdetect.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/staticlibs/arm64-v8a/libopencv_photo.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/staticlibs/arm64-v8a/libopencv_stitching.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/staticlibs/arm64-v8a/libopencv_video.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/staticlibs/arm64-v8a/libopencv_videoio.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/staticlibs/arm64-v8a/libopencv_wechat_qrcode.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/staticlibs/armeabi-v7a/libopencv_core.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/staticlibs/armeabi-v7a/libopencv_features2d.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/staticlibs/armeabi-v7a/libopencv_gapi.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/staticlibs/armeabi-v7a/libopencv_imgcodecs.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/staticlibs/armeabi-v7a/libopencv_ml.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/staticlibs/armeabi-v7a/libopencv_video.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/staticlibs/armeabi-v7a/libopencv_videoio.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/staticlibs/armeabi-v7a/libopencv_wechat_qrcode.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/staticlibs/x86/libopencv_calib3d.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/staticlibs/x86/libopencv_core.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/staticlibs/x86/libopencv_features2d.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/staticlibs/x86/libopencv_flann.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/staticlibs/x86/libopencv_highgui.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/staticlibs/x86/libopencv_imgcodecs.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/staticlibs/x86/libopencv_imgproc.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/staticlibs/x86/libopencv_video.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/staticlibs/x86/libopencv_videoio.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/staticlibs/x86/libopencv_wechat_qrcode.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/staticlibs/x86_64/libopencv_calib3d.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/staticlibs/x86_64/libopencv_dnn.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/staticlibs/x86_64/libopencv_features2d.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/staticlibs/x86_64/libopencv_flann.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/staticlibs/x86_64/libopencv_gapi.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/staticlibs/x86_64/libopencv_imgcodecs.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/staticlibs/x86_64/libopencv_ml.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/staticlibs/x86_64/libopencv_objdetect.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/staticlibs/x86_64/libopencv_photo.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/staticlibs/x86_64/libopencv_video.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/native/staticlibs/x86_64/libopencv_videoio.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/versions.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechat-qrcode-scanning/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechat-qrcode-scanning/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechat-qrcode-scanning/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechat-qrcode-scanning/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechat-qrcode-scanning/src/androidTest/java/com/king/wechat/qrcode/scanning/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechat-qrcode-scanning/src/main/java/com/king/wechat/qrcode/scanning/analyze/WeChatScanningAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechat-qrcode/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechat-qrcode/consumer-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechat-qrcode/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechat-qrcode/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechat-qrcode/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechat-qrcode/src/main/assets/models/detect.caffemodel" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechat-qrcode/src/main/assets/models/sr.caffemodel" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechat-qrcode/src/main/java/com/king/wechat/qrcode/WeChatQRCodeDetector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechat-qrcode/src/test/java/com/king/wechat/qrcode/ExampleUnitTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\gwpsc\.android\avd\Pixel_3a_API_34_extension_level_7_x86_64.avd]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2TQ1C7qZkouER9J2ti6mK4E693b" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "C:/Users/gwpsc/AndroidStudioProjects/WeChatQRCode",
+    "settings.editor.selected.configurable": "vcs.Git"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.king.wechat.qrcode.app" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="WeChatQRCode.app.main" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf2a5c44-16f2-4219-88dc-229eb66f2a49" name="Changes" comment="" />
+      <created>1690960361866</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690960361866</updated>
+    </task>
+    <task id="LOCAL-00001" summary="123456">
+      <created>1690974508186</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690974508186</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="123456" />
+    <option name="LAST_COMMIT_MESSAGE" value="123456" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/king/wechat/qrcode/app/MainActivity.kt</url>
+          <line>147</line>
+          <properties class="com.king.wechat.qrcode.app.MainActivity" method="startPickPhoto">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
