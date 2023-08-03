@@ -36,7 +36,7 @@ public class OpenCVQRCodeDetector extends QRCodeDetector {
      */
     public String detectAndDecode(Bitmap bitmap, Mat points) {
         Mat mat = new Mat();
-        Utils.bitmapToMat(bitmap, mat);
+        Utils.bitmapToMat(bitmap, mat);//bitmap转换为cv::Mat
         return detectAndDecode(mat, points);
     }
 

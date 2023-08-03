@@ -63,14 +63,32 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnOpenCVQRCodeScan" />
 
+<!--    注意采用了backgroundTint来更改按钮的颜色-->
+
+    <!--创建新的按钮来产生彩色二维码-->
     <Button
         android:id="@+id/ColorOpencvQRCodeScan"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="76dp"
+        android:layout_marginTop="68dp"
         android:backgroundTint="@color/my_custom_color_red"
         android:onClick="onClick"
         android:text="Color\nQRCode Scanning"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnOpenCVQRCodeDecode" />
+
+    <Button
+        android:id="@+id/ColorQRCodeGeneration"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="164dp"
+        android:backgroundTint="@color/my_custom_color_red"
+        android:onClick="onClick"
+        android:text="Color\nQRCode Generation"
         android:textAllCaps="false"
         android:textColor="@android:color/black"
         app:layout_constraintHorizontal_bias="0.0"

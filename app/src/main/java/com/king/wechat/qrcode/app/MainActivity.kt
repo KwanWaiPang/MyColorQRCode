@@ -2,6 +2,7 @@ package com.king.wechat.qrcode.app
 
 import android.Manifest
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.provider.MediaStore
 import android.util.Log
@@ -36,6 +37,8 @@ class MainActivity : AppCompatActivity() {
      * 是否使用 WeChatQRCodeDetector 进行检测二维码
      */
     private var useWeChatDetect = false
+
+    private val selectedImageUris = mutableListOf<Uri>()//用于获取多张图片
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -74,6 +77,31 @@ class MainActivity : AppCompatActivity() {
                 REQUEST_CODE_PICK_PHOTO -> processPickPhotoResult(data)
             }
         }
+
+        if (requestCode == REQUEST_PICK_IMAGE) {
+            data?.clipData?.let { clipData ->
+                selectedImageUris.clear()//一开始先清空一下
+                for (i in 0 until minOf(clipData.itemCount, 3)) {//最多选3张
+                    val imageUri = clipData.getItemAt(i).uri
+                    selectedImageUris.add(imageUri)
+                }
+            }
+
+            val intent = Intent(this, DisplayPhotoActivity::class.java)
+            intent.putParcelableArrayListExtra(DisplayPhotoActivity.EXTRA_IMAGE_URI, ArrayList(selectedImageUris))
+            startActivity(intent)
+        }
+
+        //下面是单张图片
+//        if (requestCode == REQUEST_PICK_IMAGE) {//// 在onActivityResult中处理选择的图片
+//            val imageUri = data?.data
+//            if (imageUri != null) {
+//                val intent = Intent(this, DisplayPhotoActivity::class.java)
+//                intent.putExtra(DisplayPhotoActivity.EXTRA_IMAGE_URI, imageUri)
+//                startActivity(intent)
+//            }
+//        }
+
     }
 
     /**
@@ -159,7 +187,7 @@ class MainActivity : AppCompatActivity() {
         startActivityForResult(Intent(this, clazz), REQUEST_CODE_QRCODE, options.toBundle())
     }
 
-    fun onClick(view: View) {
+    fun onClick(view: View) {//点击按钮，不同的按钮id对应不同的功能
         when (view.id) {
             R.id.btnWeChatQRCodeScan -> startActivityForResult(WeChatQRCodeActivity::class.java)
             R.id.btnWeChatMultiQRCodeScan -> startActivityForResult(WeChatMultiQRCodeActivity::class.java)
@@ -169,7 +197,17 @@ class MainActivity : AppCompatActivity() {
 
             //新定义设计的彩色二维码(通过opencv实现彩色二维码)
             R.id.ColorOpencvQRCodeScan -> startActivityForResult(ColorQRCodeActivity::class.java)
+
+            //定义按键点击创建彩色二维码
+            R.id.ColorQRCodeGeneration ->pickImage()
         }
+    }
+
+    private fun pickImage() {//拿到一张图片（从相册中）
+        val intent = Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI)
+        intent.putExtra(Intent.EXTRA_ALLOW_MULTIPLE, true)
+        intent.type = "image/*"
+        startActivityForResult(intent, REQUEST_PICK_IMAGE)
     }
 
     companion object {
@@ -177,5 +215,7 @@ class MainActivity : AppCompatActivity() {
         const val REQUEST_CODE_QRCODE = 0x10
         const val REQUEST_CODE_REQUEST_EXTERNAL_STORAGE = 0x11
         const val REQUEST_CODE_PICK_PHOTO = 0x12
+
+        private const val REQUEST_PICK_IMAGE = 100 // 请求选择图片的请求码
     }
 }
