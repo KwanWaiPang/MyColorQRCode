@@ -112,6 +112,13 @@ public class OpenCVScanningAnalyzer implements Analyzer<List<String>> {
             String G_result = mDetector.detectAndDecode(G_bitmap);
             String B_result = mDetector.detectAndDecode(B_bitmap);
 
+//            if (R_result.isEmpty())
+//                R_result="null";
+//            if (G_result.isEmpty())
+//                G_result="null";
+//            if (B_result.isEmpty())
+//                B_result="null";
+
             if (result != null && !result.isEmpty()) {
 
                 //将结果输出到log中（输出结果到 Logcat 中）
@@ -121,6 +128,7 @@ public class OpenCVScanningAnalyzer implements Analyzer<List<String>> {
                 Log.d("Color_QR_Code_Result", "raw result: " + result);
 
                 List<String> list = new ArrayList();
+                result=R_result + " ; "+ G_result +  " ; "+ B_result;
                 list.add(result);//原本的
                 //下面把三个通道的值也加入
                 list.add("R channel: " + R_result);

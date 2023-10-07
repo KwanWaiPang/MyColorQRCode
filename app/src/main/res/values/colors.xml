@@ -10,4 +10,7 @@
 
 <!--    自定义的颜色-->
     <color name="my_custom_color_red">#FF0000</color>
+    <color name="my_custom_color_blue">#0000FF</color>
+    <color name="my_custom_color_green">#00FF00</color>
+
 </resources>

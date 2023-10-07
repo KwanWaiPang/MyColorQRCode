@@ -189,11 +189,17 @@ class MainActivity : AppCompatActivity() {
 
     fun onClick(view: View) {//点击按钮，不同的按钮id对应不同的功能
         when (view.id) {
-            R.id.btnWeChatQRCodeScan -> startActivityForResult(WeChatQRCodeActivity::class.java)
-            R.id.btnWeChatMultiQRCodeScan -> startActivityForResult(WeChatMultiQRCodeActivity::class.java)
-            R.id.btnWeChatQRCodeDecode -> pickPhotoClicked(true)
-            R.id.btnOpenCVQRCodeScan -> startActivityForResult(OpenCVQRCodeActivity::class.java)
-            R.id.btnOpenCVQRCodeDecode -> pickPhotoClicked(false)
+//            R.id.btnWeChatQRCodeScan -> startActivityForResult(WeChatQRCodeActivity::class.java)
+//            R.id.btnWeChatMultiQRCodeScan -> startActivityForResult(WeChatMultiQRCodeActivity::class.java)
+//            R.id.btnWeChatQRCodeDecode -> pickPhotoClicked(true)
+//            R.id.btnOpenCVQRCodeScan -> startActivityForResult(OpenCVQRCodeActivity::class.java)
+//            R.id.btnOpenCVQRCodeDecode -> pickPhotoClicked(false)
+
+            //三原色解码按钮
+            R.id.btnRedQRCodeScan -> startActivityForResult(RedQRCodeActivity::class.java)
+            R.id.btnBlueQRCodeScan -> startActivityForResult(BlueQRCodeActivity::class.java)
+            R.id.btnGreenQRCodeScan -> startActivityForResult(GreenQRCodeActivity::class.java)
+            R.id.btnOriginQRCodeGeneration-> startActivityForResult(OriginQRCodeActivity::class.java)
 
             //新定义设计的彩色二维码(通过opencv实现彩色二维码)
             R.id.ColorOpencvQRCodeScan -> startActivityForResult(ColorQRCodeActivity::class.java)

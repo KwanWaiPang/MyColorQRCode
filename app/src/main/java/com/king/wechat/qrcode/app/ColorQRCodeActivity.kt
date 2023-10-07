@@ -39,7 +39,7 @@ class ColorQRCodeActivity : OpenCVCameraScanActivity() {//继承opencv中camera�
         // 当初始化 OpenCVScanningAnalyzer 时，如果是需要二维码的位置信息，则会返回 OpenCVAnalyzeResult
         if (result is OpenCVScanningAnalyzer.QRCodeAnalyzeResult) { // 如果需要处理结果二维码的位置信息
 
-            val buffer = StringBuilder()
+            val buffer = StringBuilder() //val为不可变变量
             val bitmap = result.bitmap!!.drawRect { canvas, paint ->
                 // 扫码结果（result.bitmap就是“Bitmap”对象扫到的包含二维码的图像）
                 result.result.forEachIndexed{ index, data ->

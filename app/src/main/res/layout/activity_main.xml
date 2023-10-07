@@ -7,71 +7,113 @@
     android:layout_margin="30dp"
     tools:context=".MainActivity">
 
+<!--    <Button-->
+<!--        android:id="@+id/btnWeChatQRCodeScan"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="WeChat\nQRCode Scanning"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:onClick="onClick"-->
+<!--        android:layout_marginTop="60dp"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnWeChatMultiQRCodeScan"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="WeChat\nMultiple QRCode Scanning"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:onClick="onClick"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/btnWeChatQRCodeScan" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnWeChatQRCodeDecode"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="WeChat\nQRCode recognition from image"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:onClick="onClick"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/btnWeChatMultiQRCodeScan" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnOpenCVQRCodeScan"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="OpenCV\nQRCode Scanning"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:onClick="onClick"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/btnWeChatQRCodeDecode" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnOpenCVQRCodeDecode"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="OpenCV\nQRCode recognition from image"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:onClick="onClick"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/btnOpenCVQRCodeScan" />-->
+
+<!--    注意采用了backgroundTint来更改按钮的颜色-->
+
+    <!--创建新的按钮来产生彩色二维码-->
     <Button
-        android:id="@+id/btnWeChatQRCodeScan"
+        android:id="@+id/btnRedQRCodeScan"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="WeChat\nQRCode Scanning"
+        android:backgroundTint="@color/my_custom_color_red"
+        android:text="Red\nQRCode Scanning"
         android:textAllCaps="false"
         android:onClick="onClick"
         android:layout_marginTop="60dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-    <Button
-        android:id="@+id/btnWeChatMultiQRCodeScan"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="WeChat\nMultiple QRCode Scanning"
-        android:textAllCaps="false"
-        android:onClick="onClick"
-        android:layout_marginTop="20dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnWeChatQRCodeScan" />
-    <Button
-        android:id="@+id/btnWeChatQRCodeDecode"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="WeChat\nQRCode recognition from image"
-        android:textAllCaps="false"
-        android:onClick="onClick"
-        android:layout_marginTop="20dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnWeChatMultiQRCodeScan" />
-    <Button
-        android:id="@+id/btnOpenCVQRCodeScan"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="OpenCV\nQRCode Scanning"
-        android:textAllCaps="false"
-        android:onClick="onClick"
-        android:layout_marginTop="20dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnWeChatQRCodeDecode" />
-    <Button
-        android:id="@+id/btnOpenCVQRCodeDecode"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="OpenCV\nQRCode recognition from image"
-        android:textAllCaps="false"
-        android:onClick="onClick"
-        android:layout_marginTop="20dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnOpenCVQRCodeScan" />
 
-<!--    注意采用了backgroundTint来更改按钮的颜色-->
+        <Button
+            android:id="@+id/btnBlueQRCodeScan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/my_custom_color_blue"
+            android:text="Blue\n QRCode Scanning"
+            android:textAllCaps="false"
+            android:onClick="onClick"
+            android:layout_marginTop="20dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnRedQRCodeScan" />
 
-    <!--创建新的按钮来产生彩色二维码-->
+        <Button
+            android:id="@+id/btnGreenQRCodeScan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/my_custom_color_green"
+            android:text="WeChat\nQRCode recognition from image"
+            android:textAllCaps="false"
+            android:onClick="onClick"
+            android:layout_marginTop="20dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnBlueQRCodeScan" />
+
     <Button
         android:id="@+id/ColorOpencvQRCodeScan"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="68dp"
-        android:backgroundTint="@color/my_custom_color_red"
+        android:layout_marginTop="60dp"
         android:onClick="onClick"
         android:text="Color\nQRCode Scanning"
         android:textAllCaps="false"
@@ -79,14 +121,13 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnOpenCVQRCodeDecode" />
+        app:layout_constraintTop_toBottomOf="@+id/btnGreenQRCodeScan" />
 
     <Button
         android:id="@+id/ColorQRCodeGeneration"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="164dp"
-        android:backgroundTint="@color/my_custom_color_red"
+        android:layout_marginTop="100dp"
         android:onClick="onClick"
         android:text="Color\nQRCode Generation"
         android:textAllCaps="false"
@@ -94,6 +135,20 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnOpenCVQRCodeDecode" />
+        app:layout_constraintTop_toBottomOf="@+id/ColorOpencvQRCodeScan" />
+
+    <Button
+        android:id="@+id/btnOriginQRCodeGeneration"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:onClick="onClick"
+        android:text="Origin\nQRCode Generation"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ColorOpencvQRCodeScan" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

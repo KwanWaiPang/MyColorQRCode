@@ -53,6 +53,23 @@
             android:theme="@style/CameraScanTheme"
             android:screenOrientation="portrait"/>
 
+<!--        红色解码-->
+        <activity android:name=".RedQRCodeActivity"
+            android:theme="@style/CameraScanTheme"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".GreenQRCodeActivity"
+            android:theme="@style/CameraScanTheme"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".BlueQRCodeActivity"
+            android:theme="@style/CameraScanTheme"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".OriginQRCodeActivity"
+            android:theme="@style/CameraScanTheme"
+            android:screenOrientation="portrait"/>
+
 <!--        用于生成彩色二维码-->
         <activity
             android:name=".DisplayPhotoActivity"
