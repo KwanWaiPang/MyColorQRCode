@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)//设置界面
+        setContentView(R.layout.activity_main)//设置界面（加载布局）
         // 初始化OpenCV
         OpenCV.initAsync(this)
         // 初始化WeChatQRCodeDetector

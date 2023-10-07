@@ -18,7 +18,7 @@
 <!--    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />-->
     <uses-feature android:name="android.hardware.camera.autofocus" android:required="true" />
 
-
+<!--注意哪个是主程序-->
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
