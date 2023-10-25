@@ -1,0 +1,3 @@
+C:/Users/gwpsc/AndroidStudioProjects/WeChatQRCode/opencv/.cxx/RelWithDebInfo/2u2d3l65/x86/CMakeFiles/opencv_jni_shared.dir
+C:/Users/gwpsc/AndroidStudioProjects/WeChatQRCode/opencv/.cxx/RelWithDebInfo/2u2d3l65/x86/CMakeFiles/edit_cache.dir
+C:/Users/gwpsc/AndroidStudioProjects/WeChatQRCode/opencv/.cxx/RelWithDebInfo/2u2d3l65/x86/CMakeFiles/rebuild_cache.dir

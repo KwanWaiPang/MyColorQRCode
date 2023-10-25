@@ -1,0 +1,1 @@
+C:\Users\gwpsc\AndroidStudioProjects\WeChatQRCode\opencv\build\intermediates\cxx\RelWithDebInfo\2u2d3l65\obj\x86_64
